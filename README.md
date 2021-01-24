@@ -1,4 +1,4 @@
-### Hi there 👋
+### This repository is created to work and collab on the Colosseum website of 2021
 
 <!--
 **colosseum-dbit/colosseum-dbit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
