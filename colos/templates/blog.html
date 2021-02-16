@@ -8,20 +8,20 @@
     <title>EventUp - Event and Conference Template</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" img src="{% static 'assets/css/bootstrap.min.css' %}" >
     <!-- Icon -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <link rel="stylesheet" type="text/css" img src="{% static 'assets/fonts/line-icons.css' %}">
     <!-- Slicknav -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <link rel="stylesheet" type="text/css" img src="{% static 'assets/css/slicknav.css' %}">
     <!-- Nivo Lightbox -->
-    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/nivo-lightbox.css' %}" >
 
     <!-- Animate -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}">
     <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/main.css' %}">
     <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/responsive.css' %}">
 
   </head>
   <body>
@@ -33,7 +33,7 @@
         <div class="container">
           <div class="theme-header clearfix">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>       
+            <a href="index.html" class="navbar-brand"><img stc="{% static'assets/img/logo.png' %}" alt=""></a>       
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <i class="lni-menu"></i>
             </button>
@@ -123,7 +123,7 @@
             <div class="blog-post">
               <!-- Post feature-inner -->
               <div class="feature-inner">
-                <a class="lightbox" href="assets/img/blog/bloglarge-1.jpg"><img src="assets/img/blog/bloglarge-1.jpg" alt=""></a>
+                <a class="lightbox" href="{% static'assets/img/blog/bloglarge-1.jpg' %}"><img stc="{% static'assets/img/blog/bloglarge-1.jpg' %}" alt=""></a>
               </div>
               <!-- End Post feature-inner -->   
               <!-- Post Content -->
@@ -171,7 +171,7 @@
             <div class="blog-post">
               <!-- Post feature-inner -->
               <div class="feature-inner">
-                <a class="lightbox" href="assets/img/blog/bloglarge-2.jpg"><img src="assets/img/blog/bloglarge-2.jpg" alt=""></a>
+                <a class="lightbox" href="{% static'assets/img/blog/bloglarge-2.jpg' %}"><img stc="{% static'assets/img/blog/bloglarge-2.jpg' %}" alt=""></a>
               </div>
               <!-- End Post feature-inner -->    
               <!-- Post Content -->
@@ -194,7 +194,7 @@
             <div class="blog-post">
               <!-- Post feature-inner -->
               <div class="feature-inner">
-                <a class="lightbox" href="assets/img/blog/bloglarge-3.jpg"><img src="assets/img/blog/bloglarge-3.jpg" alt=""></a>
+                <a class="lightbox" href="{% static'assets/img/blog/bloglarge-3.jpg' %}"><img stc="{% static'assets/img/blog/bloglarge-3.jpg' %}" alt=""></a>
               </div>
               <!-- End Post feature-inner -->    
               <!-- Post Content -->
@@ -241,7 +241,7 @@
               <ul class="posts-list">
                 <li>
                   <div class="widget-thumb">
-                    <a href="#"><img src="assets/img/blog/p1.jpg" alt="" /></a>
+                    <a href="#"><img stc="{% static'assets/img/blog/p1.jpg' %}" alt="" /></a>
                   </div>
                   <div class="widget-content">
                     <a href="single-post.html">Brooklyn beta was the most</a>
@@ -252,7 +252,7 @@
                 </li>
                 <li>
                   <div class="widget-thumb">
-                    <a href="#"><img src="assets/img/blog/p2.jpg" alt="" /></a>
+                    <a href="#"><img stc="{% static'assets/img/blog/p2.jpg" alt="" /></a>
                   </div>
                   <div class="widget-content">
                     <a href="single-post.html">Brooklyn beta was the most</a>
@@ -263,7 +263,7 @@
                 </li>
                 <li>
                   <div class="widget-thumb">
-                    <a href="single-post.html"><img src="assets/img/blog/p3.jpg" alt="" /></a>
+                    <a href="single-post.html"><img stc="{% static'assets/img/blog/p3.jpg' %}" alt="" /></a>
                   </div>
                   <div class="widget-content">
                     <a href="#">Brooklyn beta was the most</a>
@@ -274,7 +274,7 @@
                 </li>
                 <li>
                   <div class="widget-thumb">
-                    <a href="single-post.html"><img src="assets/img/blog/p4.jpg" alt="" /></a>
+                    <a href="single-post.html"><img stc="{% static'assets/img/blog/p4.jpg' %}" alt="" /></a>
                   </div>
                   <div class="widget-content">
                     <a href="#">Brooklyn beta was the most</a>
@@ -285,7 +285,7 @@
                 </li>
                 <li>
                   <div class="widget-thumb">
-                    <a href="single-post.html"><img src="assets/img/blog/p5.jpg" alt="" /></a>
+                    <a href="single-post.html"><img stc="{% static'assets/img/blog/p5.jpg' %}" alt="" /></a>
                   </div>
                   <div class="widget-content">
                     <a href="#">Brooklyn beta was the most</a>
@@ -333,7 +333,7 @@
               <h5 class="widget-title">Post Carousel</h5>
               <div id="post-carousel" class="post-slide">
                 <div class="item">
-                  <a class="lightbox" href="assets/img/blog/img1.jpg"><img src="assets/img/blog/img1.jpg" alt=""></a>
+                  <a class="lightbox" img src="{% static  'assets/img/blog/img1.jpg' %}"><img stc="{% static'assets/img/blog/img1.jpg' %}" alt=""></a>
                   <div class="post-content">  
                     <div class="meta">
                       <span class="meta-part"><a href="#"><i class="lni-calendar"></i> Fabruary 25, 2020</a></span>
@@ -393,7 +393,7 @@
               </form>
             </div>
             <div class="footer-logo">
-              <img src="assets/img/logo.png" alt="">
+              <img stc="{% static'assets/img/logo.png' %}" alt="">
             </div>
             <div class="social-icons-footer">
               <ul>
@@ -435,20 +435,20 @@
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.slicknav.js"></script>
-    <script src="assets/js/nivo-lightbox.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.min.js"></script>
       
+    <script src="{% static 'assets/js/jquery-min.js' %}"></script>
+    <script src="{% static 'assets/js/popper.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'assets/js/waypoints.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.nav.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'assets/js/wow.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.slicknav.js' %}"></script>
+    <script src="{% static 'assets/js/nivo-lightbox.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
+    <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+    <script src="{% static 'assets/js/contact-form-script.min.js' %}"></script>
   </body>
 </html>
